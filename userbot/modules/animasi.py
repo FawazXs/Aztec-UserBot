@@ -88,7 +88,7 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "animasi2":
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sadboy`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.aztec`\
     \n↳ : Biasalah sadboy hikss\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.punten` dan `.pantau`\
     \n↳ : Coba aja hehehe.\
