@@ -1,6 +1,6 @@
 {
   "name": "⚡𝗚𝗲𝗲𝘇 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
-  "description": "🚫Aztec-UserBot🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "description": "🚫Geez-UserBot🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/FawazXs/Aztec-UserBot",
+  "repository": "https://github.com/Vckyou/Geez-UserBot",
   "telegram": "https://t.me/xuxent",
   "success_url": "https://t.me/SocializeLives",
   "stack": "container",
