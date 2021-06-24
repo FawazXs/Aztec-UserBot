@@ -7,39 +7,39 @@ from telethon import events
 import asyncio
 
 
-@register(outgoing=True, pattern="^.hua$")
+@register(outgoing=True, pattern="^.piki$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("أ‿أ")
-        await e.edit("╥﹏╥")
-        await e.edit("(;﹏;)")
-        await e.edit("(ToT)")
-        await e.edit("(┳Д┳)")
-        await e.edit("(ಥ﹏ಥ)")
-        await e.edit("（；へ：）")
-        await e.edit("(T＿T)")
-        await e.edit("（πーπ）")
-        await e.edit("(Ｔ▽Ｔ)")
-        await e.edit("(⋟﹏⋞)")
-        await e.edit("（ｉДｉ）")
-        await e.edit("(´Д⊂ヽ")
-        await e.edit("(;Д;)")
-        await e.edit("（>﹏<）")
-        await e.edit("(TдT)")
-        await e.edit("(つ﹏⊂)")
-        await e.edit("༼☯﹏☯༽")
-        await e.edit("(ノ﹏ヽ)")
-        await e.edit("(ノAヽ)")
-        await e.edit("(╥_╥)")
-        await e.edit("(T⌓T)")
-        await e.edit("(༎ຶ⌑༎ຶ)")
-        await e.edit("(☍﹏⁰)｡")
-        await e.edit("(ಥ_ʖಥ)")
-        await e.edit("(つд⊂)")
-        await e.edit("(≖͞_≖̥)")
-        await e.edit("(இ﹏இ`｡)")
-        await e.edit("༼ಢ_ಢ༽")
-        await e.edit("༼ ༎ຶ ෴ ༎ຶ༽")
+        await e.edit("𝘗𝘦𝘳𝘵𝘢𝘮𝘢 𝘗𝘪𝘬𝘪 𝘵𝘶𝘩 𝘎𝘢𝘯𝘵𝘦𝘯𝘨😎🤙")
+        await e.edit("𝘠𝘢𝘯𝘨 𝘒𝘦𝘥𝘶𝘢 𝘮𝘢𝘯𝘪𝘴🤗")
+        await e.edit("𝘠𝘢𝘯𝘨 𝘒𝘦𝘵𝘪𝘨𝘢 𝘐𝘮𝘶𝘵😋")
+        await e.edit("𝘠𝘢𝘯𝘨 𝘒𝘦 𝘦𝘮𝘱𝘢𝘵 𝘙𝘢𝘫𝘪𝘯☺🙏")
+        await e.edit("𝘠𝘢𝘯𝘨 𝘒𝘦𝘭𝘪𝘮𝘢 𝘚𝘰𝘭𝘦𝘩😇")
+        await e.edit("𝘊𝘰𝘯𝘵𝘰𝘩 𝘓𝘢𝘩 𝘴𝘦𝘱𝘦𝘳𝘵𝘪 𝘗𝘪𝘬𝘪😌")
+        await e.edit("𝘯𝘪𝘴𝘤𝘢𝘺𝘢 𝘬𝘢𝘭𝘪𝘢𝘯 𝘣𝘢𝘬𝘢𝘭 𝘮𝘢𝘴𝘶𝘬 𝘴𝘶𝘳𝘨𝘢 𝘏𝘦𝘩𝘦𝘩𝘦")
+        await e.edit("𝘦𝘪𝘵𝘴...")
+        await e.edit("𝘬𝘢𝘭𝘪𝘢𝘯 𝘵𝘢𝘶 𝘨𝘢?")
+        await e.edit("ya ngga la")
+        await e.edit("orang gue ")
+        await e.edit("ga kasih tau")
+        await e.edit("hehe")
+        await e.edit("maap")
+        await e.edit("gabut")
+        await e.edit("kak wkwkwk")
+        await e.edit("oiya")
+        await e.edit("semanjak")
+        await e.edit("dia")
+        await e.edit("ada")
+        await e.edit("disini")
+        await e.edit("aku")
+        await e.edit("jadi")
+        await e.edit("males")
+        await e.edit("tapi")
+        await e.edit("BOONGGGGGG")
+        await e.edit("YAHAHHAAHAH WAGHYOUUUU")
+        await e.edit("DAHHHHH AH")
+        await e.edit("SEKIAN")
+        await e.edit("MAKASIH NGENTOT")
 
 
 @register(outgoing=True, pattern='^.huh(?: |$)(.*)')
@@ -181,7 +181,7 @@ CMD_HELP.update({
     \n↳ : animasi.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.waktu`\
     \n↳ : animasi.\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.hua`\
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.piki`\
     \n↳ : nangis.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ceritacinta` ; `.canda`\
     \n↳ : liat sendiri"
