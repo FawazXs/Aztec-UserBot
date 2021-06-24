@@ -490,29 +490,29 @@ with bot:
                 result = builder.photo(
                     file=geezlogo,
                     link_preview=False,
-                    text=f"⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\n\n⚡**Owner : {DEFAULTUSER}**\n\n⚡ **Bot Ver :** `5.0`\n⚡ **𝗠odules :** `{len(plugins)}`\n\n⚡ **Dev : VCKYOUUU **".format(
+                    text=f"♣️𝗔𝘇𝘁𝗲𝗰-𝗨𝘀𝗲𝗿𝗯𝗼𝘁♣️\n\n♣️**Owner : {DEFAULTUSER}**\n\n♣️ **Bot Ver :** `5.0`\n♣️ **𝗠odules :** `{len(plugins)}`\n\n♣️ **Dev : VCKYOUUU **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
+                    "Bantuan Dari ♣️𝗔𝘇𝘁𝗲𝗰-𝗨𝘀𝗲𝗿𝗯𝗼𝘁♣️ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
-                    text="""**⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\n\n Anda Bisa Membuat Geez Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    " ♣️𝗔𝘇𝘁𝗲𝗰-𝗨𝘀𝗲𝗿𝗯𝗼𝘁♣️ ",
+                    text="""**♣️𝗔𝘇𝘁𝗲𝗰-𝗨𝘀𝗲𝗿𝗯𝗼𝘁♣️\n\n Anda Bisa Membuat Geez Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
-                                "https://github.com/vckyou/Geez-Userbot"),
+                                "♣️𝗔𝘇𝘁𝗲𝗰-𝗨𝘀𝗲𝗿𝗯𝗼𝘁♣️",
+                                "https://github.com/FawazXs/Aztec-Userbot"),
                             custom.Button.url(
                                 "OWNER",
-                                "t.me/Vckyouubitch")]],
+                                "t.me/xuxent")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
