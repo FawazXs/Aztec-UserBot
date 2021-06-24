@@ -29,7 +29,7 @@
 <a href="https://t.me/GeezSupportGroup"><img src="https://img.shields.io/badge/Join-Group1%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/VcgSupportGroup"><img src="https://img.shields.io/badge/Join-Group2%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
-## 💎Aztec-UserBot
+## Aztec-UserBot
 ![Aztec UserBot](https://telegra.ph/file/eada0445a580d51ab2aee.jpg)
 
 <h3 align="center">Userbot Used for Fun on Telegram, and for Maintianing Your Group.</h3>
