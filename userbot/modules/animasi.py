@@ -3,15 +3,15 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.sadboy(?: |$)(.*)')
+@register(outgoing=True, pattern='^.aztec(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
-    await typew.edit("`Pertama-tama kamu cantik`")
+    await typew.edit("`𝗔𝗭𝗧𝗘𝗖 𝗜𝗧𝗨 𝗔𝗟𝗜𝗔𝗡𝗦𝗜 𝗞𝗘𝗥𝗘𝗡😎😎`")
     sleep(2)
-    await typew.edit("`Kedua kamu manis`")
+    await typew.edit("`𝗚𝗔 𝗞𝗔𝗬𝗔 𝗔𝗟𝗜𝗔𝗡𝗦𝗜-𝗔𝗟𝗜𝗔𝗡𝗦𝗜 𝗟𝗢.`")
     sleep(1)
-    await typew.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
+    await typew.edit("`𝗗𝗔𝗡 𝗕𝗨𝗔𝗧 𝗟𝗢 𝗦𝗘𝗠𝗨𝗔,𝗡𝗚𝗘𝗡𝗧𝗢𝗧𝗧!!!`")
 
 # Create by myself @localheart
 
