@@ -3,7 +3,7 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.kontol(?: |$)(.*)')
+@register(outgoing=True, pattern='^.kntl(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
@@ -18,7 +18,7 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "kontol":
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.kontol`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.kntl`\
     \n↳ : Biasalah sadboy hikss"
     }
 )
