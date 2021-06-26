@@ -205,7 +205,7 @@ ALIVE_LOGO = os.environ.get(
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/9e3f0783db33698243b7d.png"
+    "INLINE_PIC") or "https://telegra.ph/file/7c897a95700184fa84421.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -347,7 +347,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```𝘊𝘰𝘯𝘨𝘳𝘢𝘵𝘴𝘴... ⚡𝘎𝘦𝘦𝘻 𝘜𝘚𝘌𝘙𝘉𝘖𝘛⚡ Has Been Active!!```")
+    await bot.send_message(BOTLOG_CHATID, "```𝘊𝘰𝘯𝘨𝘳𝘢𝘵𝘴𝘴... 🚀𝘈𝘻𝘵𝘦𝘤-𝘜𝘴𝘦𝘳𝘣𝘰𝘵🚀 Has Been Active!!```")
     return
 
 with bot:
@@ -383,8 +383,8 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = sorted(helpable_modules)
     modules = [
         custom.Button.inline(
-            "{} {} 🔰".format(
-                "🔰", x), data="ub_modul_{}".format(x))
+            "{} {} 🚀".format(
+                "🚀", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -456,7 +456,7 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"Hallo [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang Di\n**Geez - Project**\nKalo mau tau lebih lanjut silahkan Join Ke \n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
+                    f"Hallo [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang Di\n**Aztec - Userbot**\nKalo mau tau lebih lanjut silahkan Join Ke \n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
@@ -464,7 +464,7 @@ with bot:
                             Button.url("🚨 Group support",
                                        "t.me/GeezSupportGroup")],
                         [Button.url("👤 Development",
-                                    "t.me/VckyouuBitch")],
+                                    "t.me/xuxent")],
                     ]
                 )
 
@@ -490,7 +490,7 @@ with bot:
                 result = builder.photo(
                     file=geezlogo,
                     link_preview=False,
-                    text=f"♣️𝗔𝘇𝘁𝗲𝗰-𝗨𝘀𝗲𝗿𝗯𝗼𝘁♣️\n\n♣️**Owner : {DEFAULTUSER}**\n\n♣️ **Bot Ver :** `5.0`\n♣️ **𝗠odules :** `{len(plugins)}`\n\n♣️ **Dev : VCKYOUUU **".format(
+                    text=f"♣️𝗔𝘇𝘁𝗲𝗰-𝗨𝘀𝗲𝗿𝗯𝗼𝘁♣️\n\n♣️**Owner : {DEFAULTUSER}**\n\n♣️ **Bot Ver :** `5.0`\n♣️ **𝗠odules :** `{len(plugins)}`\n\n♣️ **Dev : VICKY **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
